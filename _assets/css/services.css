@@ -1,0 +1,59 @@
+.services {
+  position: relative; display: block;
+  width: 100%; background-color: #fff; padding: 20px 0;
+}
+
+.sliderTitle {
+  display: block; text-align: center;
+}
+
+.sliderTitle .title { 
+  position: relative;
+  display: inline-block; padding: 0 15px; color: #343a40;
+}
+
+.sliderTitle .color { color: #007bff; font-weight: bold; }
+
+.sliderTitle .title::before,
+.sliderTitle .title::after {
+  content: '';
+  position: absolute;
+  top: 50%; width: 40px; height: 2px; right: 100%;
+  background-color: #007bff;
+}
+
+.sliderTitle .title::after { left: 100%; }
+
+.sliderSubtitle { text-align: center; font-weight: 400; font-size: 18px; color: #343a40; }
+
+.servicesItemsArea {
+  position: relative; display: block; width: 100%; margin: 20px 0;
+}
+
+.clearpadding {
+  /*padding: 0;*/
+}
+
+.serviceItemBox {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 20px; padding-bottom: 0;
+}
+
+.servicesItem__iconBox {
+  display: block; text-align: center; margin-bottom: 20px;
+}
+
+.servicesItem__icon {
+  background-color: #f8f9fa;
+  font-size: 48px; color: #007bff;
+  padding: 15px 20px; border-radius: 100%;
+}
+
+.servicesItem__title {
+  font-weight: bold;
+}
+
+.servicesItem__text {
+  color: #868e96;
+}

@@ -27,3 +27,9 @@
   text-align: center;
   color: #9E9E9E;
 }
+
+.slider__content__button {
+  border-radius: 25px; background-color: #007bff; width: 100%;
+  outline: none; cursor: pointer; color: #fff;
+  border: none; padding: 10px 20px; 
+}
