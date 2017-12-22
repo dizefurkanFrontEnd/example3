@@ -1,0 +1,90 @@
+.aboutUs {
+  position: relative; display: block; width: 100%; background-color: #f5f5f5; padding: 30px 0;
+}
+
+.aboutUsTitleArea {
+  display: block; text-align: center;
+}
+
+.aboutUsTitleArea .title { 
+  position: relative;
+  display: inline-block; padding: 0 15px; color: #343a40;
+}
+
+.aboutUsTitleArea .color { color: #007bff; font-weight: bold; }
+
+.aboutUsTitleArea .title::before,
+.aboutUsTitleArea .title::after {
+  content: '';
+  position: absolute;
+  top: 50%; width: 40px; height: 2px; right: 100%;
+  background-color: #007bff;
+}
+
+.aboutUsTitleArea .title::after { left: 100%; }
+
+.aboutUsSubtitle { text-align: center; font-weight: 400; font-size: 18px; color: #343a40; }
+
+.aboutUs__img {
+  position: relative; display: block; width: 100%;
+}
+
+.aboutUs__text {
+  color: #607d8b;
+}
+
+.aboutus__progress {
+  position: relative; display: block; margin-bottom: 20px;
+}
+.aboutus__progress__title {
+  margin-bottom: 10px;
+}
+
+.aboutus__progress__value {
+  position: absolute; right: 0; top: 0;
+  padding: 2px 10px; color: #fff;
+}
+
+.aboutus__progress__bar {
+  position: relative;
+  height: 5px; width: 100%;
+  background-color: #ccc;
+}
+
+.aboutus__progress__bar__value {
+  position: absolute; top: 0; left: 0; height: 100%;
+}
+
+.webDesign .aboutus__progress__value, 
+.webDesign .aboutus__progress__bar__value {
+  background-color: #dc3545; 
+} 
+.webDesign .aboutus__progress__bar__value {
+  width: 85%;
+}
+
+.webDevelopment .aboutus__progress__value, 
+.webDevelopment .aboutus__progress__bar__value {
+  background-color: #17a2b8; 
+}
+.webDevelopment .aboutus__progress__bar__value {
+  width: 42%;
+}
+
+.mobileApp .aboutus__progress__value, 
+.mobileApp .aboutus__progress__bar__value {
+  background-color: #343a40; 
+}
+.mobileApp .aboutus__progress__bar__value {
+  width: 70%;
+}
+
+.photography .aboutus__progress__value, 
+.photography .aboutus__progress__bar__value {
+  background-color: #28a745; 
+}
+.photography .aboutus__progress__bar__value {
+  width: 10%;
+}
+
+

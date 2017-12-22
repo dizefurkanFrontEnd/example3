@@ -36,7 +36,6 @@
 
 .serviceItemBox {
   text-align: center;
-  border-bottom: 1px solid #ccc;
   padding: 20px; padding-bottom: 0;
 }
 
@@ -57,3 +56,11 @@
 .servicesItem__text {
   color: #868e96;
 }
+
+/* HEADER FOR MOBILE DEVICE */
+@media (max-width: 768px) {
+  .serviceItemBox {
+    border-bottom: 1px solid #ccc;
+  }  
+}
+/* END - HEADER FOR MOBILE DEVICE */
