@@ -35,8 +35,8 @@
 }
 
 .serviceItemBox {
-  text-align: center;
-  padding: 20px; padding-bottom: 0;
+  position: relative; display: block; text-align: center;
+  padding: 20px; padding-bottom: 0; float: left;
 }
 
 .servicesItem__iconBox {

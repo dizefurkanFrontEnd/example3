@@ -2,17 +2,11 @@
   position: relative; display: block; width: 100%; background-color: #f5f5f5; padding: 30px 0;
 }
 
-.aboutUsTitleArea {
-  display: block; text-align: center;
+.aboutUsTitleArea { display: block; text-align: center; }
+.aboutUsTitleArea .title {  position: relative; display: inline-block; padding: 0 15px; 
+  color: #343a40;
 }
-
-.aboutUsTitleArea .title { 
-  position: relative;
-  display: inline-block; padding: 0 15px; color: #343a40;
-}
-
 .aboutUsTitleArea .color { color: #007bff; font-weight: bold; }
-
 .aboutUsTitleArea .title::before,
 .aboutUsTitleArea .title::after {
   content: '';
@@ -20,9 +14,7 @@
   top: 50%; width: 40px; height: 2px; right: 100%;
   background-color: #007bff;
 }
-
 .aboutUsTitleArea .title::after { left: 100%; }
-
 .aboutUsSubtitle { text-align: center; font-weight: 400; font-size: 18px; color: #343a40; }
 
 .aboutUs__img {
