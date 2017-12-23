@@ -6,7 +6,7 @@
   background-color: #fafafa; 
 }
 
-.portfolio ul {
+.portfolio__list {
   position: relative;
   display: inline-block;
   width: 100%;

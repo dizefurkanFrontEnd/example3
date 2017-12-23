@@ -373,20 +373,23 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-12">
 					<div class="portfolio__buttonArea">
-						<button class="portfolio__button">All</button>
-						<button class="portfolio__button">Web App</button>
-						<button class="portfolio__button">Mobile App</button>
-						<button class="portfolio__button">Design</button>
-						<button class="portfolio__button">Graphics</button>
+						<button class="portfolio__button" data-filter="list__item">All</button>
+						<button class="portfolio__button" data-filter="webapp">Web App</button>
+						<button class="portfolio__button" data-filter="mobileapp">Mobile App</button>
+						<button class="portfolio__button" data-filter="design">Design</button>
+						<button class="portfolio__button" data-filter="graphics">Graphics</button>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-12">
-					<ul>
-						<li class="col-xs-12 col-sm-6 col-md-4 list__item">
+					<ul class="portfolio__list">
+						<li class="col-xs-12 col-sm-6 col-md-4 list__item webapp">
 							<div class="list__itemBox">
 								<img src="./_assets/media/portfolio-thumb-1.jpg" class="img-responsive">
 								<div class="list__item__detail">
-									<p class="list__item__detail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<div class="list__item__detail__text">
+										<span>webapp</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
 									<div class="infoArea">
 										<h4 class="text">John Doe</h4>
 										<span class="icon"><i class="fa fa-arrows-alt"></i></span>
@@ -396,11 +399,14 @@
 								</div>
 							</div>
 						</li>
-						<li class="col-xs-12 col-sm-6 col-md-4 list__item">
+						<li class="col-xs-12 col-sm-6 col-md-4 list__item mobileapp">
 							<div class="list__itemBox">
 								<img src="./_assets/media/portfolio-thumb-1.jpg" class="img-responsive">
 								<div class="list__item__detail">
-									<p class="list__item__detail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<div class="list__item__detail__text">
+										<span>mobileapp</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
 									<div class="infoArea">
 										<h4 class="text">John Doe</h4>
 										<span class="icon"><i class="fa fa-arrows-alt"></i></span>
@@ -410,11 +416,14 @@
 								</div>
 							</div>
 						</li>
-						<li class="col-xs-12 col-sm-6 col-md-4 list__item">
+						<li class="col-xs-12 col-sm-6 col-md-4 list__item design">
 							<div class="list__itemBox">
 								<img src="./_assets/media/portfolio-thumb-1.jpg" class="img-responsive">
 								<div class="list__item__detail">
-									<p class="list__item__detail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<div class="list__item__detail__text">
+										<span>design</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
 									<div class="infoArea">
 										<h4 class="text">John Doe</h4>
 										<span class="icon"><i class="fa fa-arrows-alt"></i></span>
@@ -424,11 +433,14 @@
 								</div>
 							</div>
 						</li>
-						<li class="col-xs-12 col-sm-6 col-md-4 list__item">
+						<li class="col-xs-12 col-sm-6 col-md-4 list__item graphics">
 							<div class="list__itemBox">
 								<img src="./_assets/media/portfolio-thumb-1.jpg" class="img-responsive">
 								<div class="list__item__detail">
-									<p class="list__item__detail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<div class="list__item__detail__text">
+										<span>graphics</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
 									<div class="infoArea">
 										<h4 class="text">John Doe</h4>
 										<span class="icon"><i class="fa fa-arrows-alt"></i></span>
@@ -438,11 +450,14 @@
 								</div>
 							</div>
 						</li>
-						<li class="col-xs-12 col-sm-6 col-md-4 list__item">
+						<li class="col-xs-12 col-sm-6 col-md-4 list__item webapp">
 							<div class="list__itemBox">
 								<img src="./_assets/media/portfolio-thumb-1.jpg" class="img-responsive">
 								<div class="list__item__detail">
-									<p class="list__item__detail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<div class="list__item__detail__text">
+										<span>webapp</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
 									<div class="infoArea">
 										<h4 class="text">John Doe</h4>
 										<span class="icon"><i class="fa fa-arrows-alt"></i></span>
@@ -452,11 +467,14 @@
 								</div>
 							</div>
 						</li>
-						<li class="col-xs-12 col-sm-6 col-md-4 list__item">
+						<li class="col-xs-12 col-sm-6 col-md-4 list__item design">
 							<div class="list__itemBox">
 								<img src="./_assets/media/portfolio-thumb-1.jpg" class="img-responsive">
 								<div class="list__item__detail">
-									<p class="list__item__detail__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<div class="list__item__detail__text">
+										<span>design</span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									</div>
 									<div class="infoArea">
 										<h4 class="text">John Doe</h4>
 										<span class="icon"><i class="fa fa-arrows-alt"></i></span>
@@ -899,6 +917,7 @@
 	<script type="text/javascript" src="./_assets/plugins/swiper/js/swiper.min.js"></script>
 	<script src="./_assets/js/header.js"></script>
 	<script src="./_assets/js/slider.js"></script>
+	<script src="./_assets/js/portfolio.js"></script>
 	<script>
 		var mySwiper = new Swiper('.swiper-container', {
 	    speed: 400,
