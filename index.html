@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./_assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./_assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./_assets/plugins/swiper/css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="./_assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="./_assets/css/slider.css">
 	<link rel="stylesheet" type="text/css" href="./_assets/css/services.css">
@@ -16,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="./_assets/css/team.css">
 	<link rel="stylesheet" type="text/css" href="./_assets/css/action.css">
 	<link rel="stylesheet" type="text/css" href="./_assets/css/blog.css">
+	<link rel="stylesheet" type="text/css" href="./_assets/css/funfacts.css">
 </head>
 <body>
 	<header>
@@ -698,6 +700,89 @@
 			</div>
 		</div>
 	</div>
+	<div class="funfacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-12">
+					<div class="funfactsTitleArea">
+						<h2 class="title">Fun<span class="color"> Facts About </span>Us</h2>
+					</div>
+					<p class="funfactsSubtitle">
+						Separated they live in Bookmarksgrove right at the coast of the Semantics
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-7">
+					<table>
+						<tr>
+							<td>
+								<i class="icon fa fa-mobile"></i>
+								<p class="title">92%</p>
+								<p class="subtitle">Web Design</p>
+							</td>
+							<td>
+								<i class="icon fa fa-tablet"></i>
+								<p class="title">53%</p>
+								<p class="subtitle">App Design</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<i class="icon fa fa-desktop"></i>
+								<p class="title">42%</p>
+								<p class="subtitle">Web Development</p>
+							</td><td>
+								<i class="icon fa fa-laptop"></i>
+								<p class="title">12%</p>
+								<p class="subtitle">Web Design</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-xs-12 col-md-5">
+					<!-- Slider main container -->
+					<div class="swiper-container">
+				    <!-- Additional required wrapper -->
+				    <div class="swiper-wrapper">
+				        <!-- Slides -->
+				        <div class="swiper-slide">
+				        	<div class="swiperslide__content">
+										<i class="icon fa fa-font"></i>
+										<p class="text">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quasi dolor.
+										</p>
+					        	<img src="./_assets/media/team-1.jpg" class="img-responsive img">
+					        	<h5>Daniel Bilmemne</h5>
+					        	<p>CEO At Xiaomi</p>
+				        	</div>
+				        </div>
+				        <div class="swiper-slide">
+				        	<div class="swiperslide__content">
+										<i class="icon fa fa-font"></i>
+										<p class="text">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quasi dolor.
+										</p>
+					        	<img src="./_assets/media/team-1.jpg" class="img-responsive img">
+					        	<h5>Daniel Bilmemne</h5>
+					        	<p>CEO At Xiaomi</p>
+				        	</div>
+				        </div>
+				    </div>
+				    <!-- If we need pagination -->
+				    <div class="swiper-pagination"></div>
+				    
+				    <!-- If we need navigation buttons -->
+				    <!-- <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div> -->
+				    
+				    <!-- If we need scrollbar -->
+				    <!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="searchArea">
 		<div class="searchArea__content">
 			<div class="container">
@@ -714,7 +799,19 @@
 	</div>
 	<script src="./_assets/plugins/jquery/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="./_assets/plugins/typewriter-1.0.min.js"></script>
+	<script type="text/javascript" src="./_assets/plugins/swiper/js/swiper.min.js"></script>
 	<script src="./_assets/js/header.js"></script>
 	<script src="./_assets/js/slider.js"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+	    speed: 400,
+	    spaceBetween: 100,
+	    pagination: {
+		    el: '.swiper-pagination',
+		    type: 'bullets',
+		  },
+		  toggle: true
+		});
+	</script>
 </body>
 </html>

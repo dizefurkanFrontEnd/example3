@@ -1,0 +1,100 @@
+.funfacts {
+  position: relative; 
+  display: block; 
+  width: 100%; 
+  padding: 30px 0;
+  background-color: #fafafa; 
+}
+
+a, a:hover {
+  color: unset;
+}
+
+/* AREA TITLE*/
+.funfactsTitleArea { display: block; text-align: center; }
+.funfactsTitleArea .title {  
+  position: relative; 
+  display: inline-block; 
+  padding: 0 15px; 
+  color: #343a40;
+}
+.funfactsTitleArea .color { color: #007bff; font-weight: bold; }
+.funfactsTitleArea .title::before,
+.funfactsTitleArea .title::after {
+  content: '';
+  position: absolute;
+  top: 50%; width: 40px; height: 2px; right: 100%;
+  background-color: #007bff;
+}
+.funfactsTitleArea .title::after { left: 100%; }
+.funfactsSubtitle { 
+  text-align: center; 
+  font-weight: 400; 
+  font-size: 18px; 
+  color: #343a40;
+}
+/* END - AREA TITLE*/
+
+.funfacts table {
+  position: relative; display: table; width: 100%; text-align: center; height: 100%;
+}
+
+.funfacts table tbody {
+  display: table-row-group;
+}
+.funfacts table tr {
+  position: relative; display: table-row;
+}
+
+.funfacts table tr td {
+  position: relative; width: 50%;
+}
+
+.funfacts table .icon {
+  border: 5px solid #ddd; font-size: 30px;
+  width: 80px; height: 80px;
+  line-height: 70px; 
+  border-radius: 100%;
+  color: #868e96;
+}
+
+.funfacts table .title {
+  font-size: 26px; color: #868e96; margin-bottom: 5px; font-weight: bold;
+}
+
+.funfacts table .subtitle { color: #868e96; }
+
+.funfacts .swiper-container {
+  width: 100%; height: 100%; background-color: #063176;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+}
+
+.funfacts .swiper-slide {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.funfacts .swiperslide__content {
+  margin: 30px 0;
+}
+
+.funfacts .swiperslide__content .icon {
+  border: 3px solid #ddd; font-size: 30px;
+  width: 70px; height: 70px;
+  line-height: 60px; 
+  border-radius: 100%;
+  color: #fff; margin-bottom: 20px;
+}
+
+.funfacts .swiperslide__content .text {
+  color: #fff;
+}
+
+.funfacts .swiperslide__content .img {
+  width: 100px; margin: auto; border-radius: 50%; height: 100px;
+  margin-bottom: 10px;
+}
