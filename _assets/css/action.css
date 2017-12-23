@@ -11,36 +11,29 @@ a, a:hover {
 }
 
 /* AREA TITLE*/
-.teamTitleArea { display: block; text-align: center; }
-.teamTitleArea .title {  
+.actionTitleArea { display: block; text-align: center; }
+.actionTitleArea .title {  
   position: relative; 
   display: inline-block; 
   padding: 0 15px; 
   color: #343a40;
 }
-.teamTitleArea .color { color: #007bff; font-weight: bold; }
-.teamTitleArea .title::before,
-.teamTitleArea .title::after {
+.actionTitleArea .color { color: #007bff; font-weight: bold; }
+.actionTitleArea .title::before,
+.actionTitleArea .title::after {
   content: '';
   position: absolute;
   top: 50%; width: 40px; height: 2px; right: 100%;
   background-color: #007bff;
 }
-.teamTitleArea .title::after { left: 100%; }
-.teamSubtitle { 
+.actionTitleArea .title::after { left: 100%; }
+.actionSubtitle { 
   text-align: center; 
   font-weight: 400; 
   font-size: 18px; 
   color: #343a40;
 }
 /* END - AREA TITLE*/
-
-.portfolio__buttonArea {
-  position: relative; 
-  display: block; 
-  text-align: center; 
-  margin-bottom: 20px;
-}
 
 .action__button {
   display: block; margin: auto;
