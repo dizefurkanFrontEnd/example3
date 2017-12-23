@@ -79,7 +79,7 @@ a, a:hover {
 }
 
 .funfacts .swiperslide__content {
-  margin: 30px 0;
+  margin: 30px 0; padding: 0 20px;
 }
 
 .funfacts .swiperslide__content .icon {

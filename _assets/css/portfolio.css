@@ -53,7 +53,8 @@
 .portfolio__button {
   border-radius: 25px; 
   color: #343a40;
-  padding: 5px 15px; 
+  padding: 5px 15px;
+  margin-bottom: 10px;
   outline: none; 
   border: 1px solid #868e96;
   background-color: transparent;

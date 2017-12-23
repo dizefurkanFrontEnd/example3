@@ -35,6 +35,10 @@ a, a:hover {
 }
 /* END - AREA TITLE*/
 
+.team__box {
+  margin-bottom: 20px;
+}
+
 .team__box .img {
   width: 100%;
 }
