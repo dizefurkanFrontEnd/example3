@@ -62,6 +62,7 @@
   transition: .3s;
 }
 
+.portfolio__button.active,
 .portfolio__button:hover {
   background-color: #007bff; 
   border-color: #007bff; 
