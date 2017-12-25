@@ -114,18 +114,14 @@ a, a:hover {
   transition: .3s;
 }
 
-.team__content__social__item:hover {
-  color: none !important;
-}
-
-.team__content__social__item.facebook {
+.team__content__social__item.facebook:hover {
   color: #3b5998;
 }
 
-.team__content__social__item.whatsapp {
+.team__content__social__item.whatsapp:hover {
   color: #4dc247;
 }
 
-.team__content__social__item.twitter {
+.team__content__social__item.twitter:hover {
   color: #55acee;
 }
