@@ -1,5 +1,5 @@
 # example3
-http://pepdev.com/template/apez/index.html
+Template: http://pepdev.com/template/apez/index.html
 
 ## Authors
 * **Said Furkan Dize** - *Training* - [Web Site](http://www.dizefurkan.site)
