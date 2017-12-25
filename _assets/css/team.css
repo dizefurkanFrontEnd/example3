@@ -53,34 +53,35 @@ a, a:hover {
   position: absolute;
   top: 0; left: 0; 
   width: 100%; height: 100%; 
-  background-color: rgba(0,0,0,.8);
-  animation-name: team-pic-hover-bg;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
+  background-color: rgba(0,0,0,.7);
   transition: .5s;
-}
-
-@keyframes team-pic-hover-bg {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
 }
 
 .team__pic__info {
   position: absolute;
-  top: 0; background-color: rgba(255,255,255,.9);
+  display: none;
+  background-color: rgba(0,0,0,.9);
   width: 80%; height: 80%;
   top: 50%; left: 50%; transform: translate(-50%,-50%);
+  padding: 10px;
   animation-name: team-pic-hover-bg;
-  animation-duration: .5s;
+  animation-duration: .6s;
   animation-fill-mode: forwards;
-  padding: 5px;
-  display: none;
+  color: #fff;
+}
+
+.team__pic__info__text {
+  font-size: 14px;
+}
+
+@keyframes team-pic-hover-bg {
+  0% { opacity: 0; height: 0%; }
+  100% { opacity: 1; height: 80%; }
 }
 
 .team__pic:hover .team__pic__info {
   display: block;
 }
-
 
 .team__content {
   position: relative;
