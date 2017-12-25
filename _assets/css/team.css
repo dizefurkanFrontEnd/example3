@@ -55,6 +55,14 @@ a, a:hover {
   width: 100%; height: 100%; 
   background-color: rgba(0,0,0,.7);
   transition: .5s;
+  animation-name: show-opacity;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show-opacity {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .team__pic__info {
@@ -68,6 +76,7 @@ a, a:hover {
   animation-duration: .6s;
   animation-fill-mode: forwards;
   color: #fff;
+  text-align: center;
 }
 
 .team__pic__info__text {
@@ -106,5 +115,17 @@ a, a:hover {
 }
 
 .team__content__social__item:hover {
-  color: #007bff !important;
+  color: none !important;
+}
+
+.team__content__social__item.facebook {
+  color: #3b5998;
+}
+
+.team__content__social__item.whatsapp {
+  color: #4dc247;
+}
+
+.team__content__social__item.twitter {
+  color: #55acee;
 }
