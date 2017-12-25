@@ -48,15 +48,16 @@
 }
 
 .webDesign .aboutus__progress__value, 
-.webDesign .aboutus__progress__bar__value {
+.webDesign .red {
   background-color: #dc3545; 
 } 
 .webDesign .aboutus__progress__bar__value {
   width: 85%;
+  display: inline-block;
 }
 
 .webDevelopment .aboutus__progress__value, 
-.webDevelopment .aboutus__progress__bar__value {
+.webDevelopment .aqua {
   background-color: #17a2b8; 
 }
 .webDevelopment .aboutus__progress__bar__value {
@@ -64,7 +65,7 @@
 }
 
 .mobileApp .aboutus__progress__value, 
-.mobileApp .aboutus__progress__bar__value {
+.mobileApp .grey {
   background-color: #343a40; 
 }
 .mobileApp .aboutus__progress__bar__value {
@@ -72,11 +73,22 @@
 }
 
 .photography .aboutus__progress__value, 
-.photography .aboutus__progress__bar__value {
+.photography .green {
   background-color: #28a745; 
 }
 .photography .aboutus__progress__bar__value {
   width: 10%;
 }
 
+.aboutus__progress__bar__value__animation {
+  height: 100%;
+  width: 100%;
+  animation-name: aboutus-progress-bar-loading;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 
+@keyframes aboutus-progress-bar-loading {
+  0% { width: 0% }
+  1000% { width: 100% }
+}
