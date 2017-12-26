@@ -1,0 +1,61 @@
+/*PAGE HEADER*/
+.pageHeader {
+  position: relative;
+  width: 100%;
+  background-image: url(../../_assets/media/slider-1.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  padding: 60px 0;
+}
+/*///////////////////////////////////////////////////////////////////////////////*/
+/*PAGE HEADER TITLE AREA*/
+.pageHeader .filter {
+  position: absolute;
+  width: 100%; height: 100%; top: 0;
+  background-color: rgba(255,255,255,.6);
+}
+
+.pageHeaderTitleArea .title {  
+  position: relative; 
+  display: inline-block; 
+  padding: 0 15px; 
+  color: #343a40;
+}
+.pageHeaderTitleArea .color { color: #007bff; font-weight: bold; }
+.pageHeaderTitleArea .title::before,
+.pageHeaderTitleArea .title::after {
+  content: '';
+  position: absolute;
+  top: 50%; width: 40px; height: 2px; right: 100%;
+  background-color: #007bff;
+}
+.pageHeaderTitleArea .title::after { left: 100%; }
+
+.pageHeaderBreadCrumb {
+  text-align: center; 
+  margin: 0;
+}
+
+.pageHeaderBreadCrumb .link { color: #555; }
+.pageHeaderBreadCrumb .icon { color: #007bff; margin: 0 5px; }
+.pageHeaderBreadCrumb .currentpage { color: #999; }
+/*END - PAGE HEADER TITLE AREA*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*END - PAGE HEADER*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*PAGE SECTION AREA*/
+.pageSection {
+  position: relative;
+  width: 100%;
+  background-color: #fafafa;
+  padding: 40px 0;
+}
+
+.pageSection__box {
+  position: relative;
+  color: #555;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.08);
+  padding: 20px;
+}
+/*END - PAGE SECTION AREA*/
