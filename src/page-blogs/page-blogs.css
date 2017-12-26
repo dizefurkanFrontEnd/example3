@@ -1,0 +1,63 @@
+a, a:hover {
+  color: unset;
+  text-decoration: unset;
+}
+/*PAGE BLOGS*/
+.pageBlogs {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Dosis', sans-serif;
+  color: #999;
+}
+
+.pageBlogs .item {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.pageBlogs .item:last-child {
+  border: 0;
+}
+
+.pageBlogs .img {
+  width: 100%;
+}
+
+.pageBlogs .title {
+  font-weight: bold;
+  color: #555;
+}
+
+.pageBlogs .meta {
+  margin-right: 10px;
+}
+
+.pageBlogs .decription {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.pageBlogs .tags {
+  margin: 20px 0;
+}
+
+.pageBlogs .tags .tag {
+  color: #333;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #EEE;
+  letter-spacing: .5px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.pageBlogs .more {
+  display: block;
+  color: #3483FF;
+}
+/*END - PAGE BLOGS*/

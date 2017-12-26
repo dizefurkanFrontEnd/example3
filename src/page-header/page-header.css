@@ -4,8 +4,12 @@
   width: 100%;
   background-image: url(../../_assets/media/slider-1.jpg);
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   padding: 60px 0;
+  font-family: 'Dosis', sans-serif;
 }
 /*///////////////////////////////////////////////////////////////////////////////*/
 /*PAGE HEADER TITLE AREA*/
@@ -49,6 +53,7 @@
   width: 100%;
   background-color: #fafafa;
   padding: 40px 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 .pageSection__box {
