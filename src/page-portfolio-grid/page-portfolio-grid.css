@@ -1,0 +1,80 @@
+a, a:hover {
+  color: unset;
+  text-decoration: unset;
+}
+/*PAGE PORTFOLIO GRID*/
+.portfolioGrid {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Dosis', sans-serif;
+  color: #999;
+}
+
+.portfolioGrid__item {
+  margin-bottom: 20px;
+}
+
+.portfolioGrid .img__box {
+  position: relative;
+}
+
+.portfolioGrid .img__box:hover .img__iconArea {
+  visibility: visible;
+  opacity: .9;
+}
+
+.portfolioGrid .img {
+  width: 100%;
+}
+
+.portfolioGrid .img__iconArea {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,.6);
+  transition: .5s;
+}
+
+.portfolioGrid .img__iconArea .filter {
+  position: absolute;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 95%; height: 95%;
+  background-color: #3483FF;
+  opacity: .8
+}
+
+.portfolioGrid .img__iconBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.portfolioGrid .img__icon {
+  padding: 20px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.portfolioGrid .img__icon:hover {
+  color: #3483FF;
+}
+
+.portfolioGrid .title {
+  margin-top: 8px;
+  color: #555;
+}
+
+.portfolioGrid .more {
+  display: block;
+  color: #3483FF;
+}
+/*END - PORTFOLIO GRID*/
