@@ -1,0 +1,30 @@
+a, a:hover {
+  color: unset;
+  text-decoration: unset;
+}
+
+.pageBlog1Area {
+  position: relative;
+  padding: 20px 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+.pageBlog1Area .img-responsive {
+  width: 100%;
+} 
+
+.pageBlog1Area .title {
+  margin: 20px 0;
+  color: #555;
+}
+
+.pageBlog1Area .meta {
+  color: #777;
+  margin-right: 10px;
+}
+
+.pageBlog1Area .paragraph {
+  margin-top: 10px;
+  color: #777;
+
+}

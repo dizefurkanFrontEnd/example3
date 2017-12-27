@@ -1,6 +1,6 @@
 var sliderArea = document.getElementsByClassName("sliderArea")[0];
-var colArea = document.getElementsByClassName("portfolioGrid")[0];
-var col = colArea.getElementsByClassName("portfolioGrid__item");
+var colArea = document.getElementsByClassName("mainSliderArea")[0];
+var col = colArea.getElementsByClassName("colSliderArea");
 var photosLength = col.length;
 var currentIndex = 0;
 
