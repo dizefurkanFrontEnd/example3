@@ -350,3 +350,30 @@ a, a:hover {
 }
 /*END - CATEGORY */
 /*/////////////////////////////////////////////////////////////////////////////*/
+/*POPULAR TAGS*/
+.popularTags .tagListItem {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  color: #333;
+  padding: 8px 15px;
+  background-color: #ddd;
+  border-radius: 2px;
+  letter-spacing: .5px;
+}
+
+.popularTags .tagListItem:hover {
+  background-color: #3483FF;
+  color: #fff;
+}
+
+.popularTags .tagListItem:before {
+  position: absolute;
+  content: '';
+  top: 50%; transform: translateY(-50%);
+  left: -5px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background-color: #fff;
+}
+/*END POPULAR TAGS*/
+/*/////////////////////////////////////////////////////////////////////////////*/
