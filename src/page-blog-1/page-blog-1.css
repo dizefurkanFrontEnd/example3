@@ -325,3 +325,28 @@ a, a:hover {
 }
 /*END - RECENT POST*/
 /*/////////////////////////////////////////////////////////////////////////////*/
+/* CATEGORY */
+.pageBlog1Area .category__list {
+  padding: 0;
+  display: block;
+  list-style: none;
+}
+
+.pageBlog1Area .category__listItem {
+  color: #555;
+  border-bottom: 1px solid #EEE;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.pageBlog1Area .category__listItem .fa {
+  margin-right: 5px;
+}
+.pageBlog1Area .category__listItem a:hover {
+  color: #3483FF;
+}
+.pageBlog1Area .category__listItem span {
+  float: right;
+}
+/*END - CATEGORY */
+/*/////////////////////////////////////////////////////////////////////////////*/
