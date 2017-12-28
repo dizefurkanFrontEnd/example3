@@ -11,7 +11,7 @@ a, a:hover {
 
 .pageBlog1Area .img-responsive {
   width: 100%;
-} 
+}
 
 .pageBlog1Area .title {
   margin: 20px 0;
@@ -26,5 +26,302 @@ a, a:hover {
 .pageBlog1Area .paragraph {
   margin-top: 10px;
   color: #777;
+}
+
+.pageBlog1Area .quote {
+  padding-left: 20px;
+  border-left: 5px solid #ddd;
+}
+
+.pageBlog1Area .quoteFooterTitle {
+  font-style: italic;
+}
+
+.pageBlog1Area .quoteFooter:before {
+  position: relative;
+  content: '-';
+}
+
+.pageBlog1Area .blogFooter {
+  background-color: #EEE;
+  border-top: 1px solid #DDD;
+  margin-top: 30px;
+  padding: 10px;
+}
+/*///////////////////////////////////////////////////////////////////////////////*/
+/* TABLE */
+.pageBlog1Area .table {
+  display: table;
+}
+.pageBlog1Area .table-cell {
+  display: table-cell;
+}
+.pageBlog1Area .table-row {
+  display: block;
+}
+.pageBlog1Area .table-cell .table-row-ul {
+  list-style: none;
+  padding: 0;
+}
+/*BLOG TABLE*/
+.pageBlog1Area .table.img .table-cell {
+  padding: 0 10px;
+}
+
+.pageBlog1Area .table.list .table-row-ul {
+  padding: 0;
+  list-style: none;
+  color: #555;
+}
+.pageBlog1Area .table.list .table-row-li:before {
+  content: "\f0a4";
+  font-family: fontAwesome;
+  position: relative;
+  color: #3483FF;
+  margin-right: 10px;
+}
+
+.pageBlog1Area .table.blogFooter .table-cell {
+  vertical-align: top;
+}
+
+.pageBlog1Area .table.blogFooter .table-row-li {
+  float: left;
+}
+.pageBlog1Area .table.blogFooter .tag .table-row-li a {
+  display: inline-block;
+  border: 1px solid #EEE;
+  background-color: #FFF;
+  color: #333;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+.pageBlog1Area .table.blogFooter .tag .table-row-li a:hover {
+  background-color: #ddd;
+}
+
+.pageBlog1Area .table.blogFooter .social .table-row-li a {
+  margin: 5px;
+}
+
+.pageBlog1Area .table.blogFooter .social .fa-facebook:hover {
+  color: #3b5998;
+}
+.pageBlog1Area .table.blogFooter .social .fa-twitter:hover {
+  color: #55acee;
+}
+.pageBlog1Area .table.blogFooter .social .fa-whatsapp:hover {
+  color: #4dc247;
+}
+.pageBlog1Area .table.blogFooter .social .fa-link:hover {
+  color: #555;
+}
+.pageBlog1Area .table.blogFooter .social .fa-youtube:hover {
+  color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .pageBlog1Area .table.img .table-cell {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .pageBlog1Area .table.list .table-cell,
+  .pageBlog1Area .table.blogFooter .table-cell {
+    float: left;
+    width: 100%;
+    padding: 0;
+  }
+}
+/*END - BLOG TABLE*/
+/*END - TABLE*/
+/*///////////////////////////////////////////////////////////////////////////////*/
+/*IMAGE*/
+.pageBlog1Area .img__box {
+  position: relative;
+}
+
+.pageBlog1Area .img__box:hover .img__iconArea {
+  visibility: visible;
+  opacity: .9;
+}
+
+.pageBlog1Area .img__iconArea {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,.6);
+  transition: .5s;
+}
+
+.pageBlog1Area .img__iconArea .filter {
+  position: absolute;
+  top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 95%; height: 95%;
+  background-color: #3483FF;
+  opacity: .8
+}
+
+.pageBlog1Area .img__iconBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.pageBlog1Area .img__icon {
+  padding: 20px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pageBlog1Area .img__icon:hover {
+  color: #3483FF;
+}
+/*END - IMAGE*/
+/*///////////////////////////////////////////////////////////////////////////////*/
+/* TITLE */
+.pageBlog1AreaTitle { display: block; text-align: center; }
+.pageBlog1AreaTitle .title {
+  position: relative;
+  display: inline-block;
+  padding: 0 15px;
+  color: #343a40;
+  font-weight: bold;
+}
+.pageBlog1AreaTitle .color { color: #007bff; font-weight: bold; }
+.pageBlog1AreaTitle .title::before,
+.pageBlog1AreaTitle .title::after {
+  content: '';
+  position: absolute;
+  top: 50%; width: 40px; height: 2px; right: 100%;
+  background-color: #007bff;
+}
+.pageBlog1AreaTitle .title::after { left: 100%; }
+/* END - TITLE */
+
+/*blog Comments*/
+
+.noPR {
+  padding-right: 0;
+}
+
+.blogComments .commentslist {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.blogComments .commentslist .commentslistItem {
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.blogComments .commentslist .commentslistItem:last-child {
+  border-bottom: 0;
+}
+.blogComments .commentslist .comment__meta .name {
+  color: #555;
+  font-size: 20px;
+  margin: 0; padding-right: 10px;
+}
+.blogComments .commentslist .comment__meta .time {
+  color: #3483FF;
+  font-size: 12px;
+}
+
+.blogComments .commentslist .comment__post {
+  letter-spacing: .6px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.blogComments .commentslist .comment__action {
+  margin-top: 10px;
+}
+
+.blogComments .commentslist .comment__action__item {
+  font-size: 12px;
+  margin-right: 10px;
+  color: #555;
+}
+
+/*END - blog Comments*/
+/*//////////////////////////////////////////////////////////////*/
+/*blog Comments Form*/
+
+.blogCommentsForm input[type="input"],
+.blogCommentsForm textarea {
+  width: 100%;
+  color: #555;
+  outline: none;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.blogCommentsForm textarea {
+  min-height: 50px;
+}
+
+.blogCommentsForm input[type="submit"] {
+  position: relative;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  background-color: #3483FF;
+  outline: none;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+}
+/*END - blog commnets form*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+/* SIDE BAR -*/
+/*RECENT POST*/
+.recentpostItem {
+  display: block;
+  margin-bottom: 20px;
 
 }
+.recentpost__img {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+.recentpost__title {
+  color: #555;
+  font-size: 16px;
+}
+
+.recentpostItem:hover .recentpost__title {
+  color: #3483FF;
+}
+
+.recentpost__subtitle {
+  font-size: 14px;
+  color: #999;
+}
+/*END - RECENT POST*/
+/*/////////////////////////////////////////////////////////////////////////////*/
